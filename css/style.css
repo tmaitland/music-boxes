@@ -1,0 +1,35 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background: url(../oldbooks4.jpg);/*CSS3*/
+    height: 100%;/*CSS7*/
+    background-repeat: no-repeat; /*CSS4*/
+    background-size: cover; /*CSS5*/
+}
+
+.piano{
+    /* border: 1px solid black; */
+    display: flex;
+    min-width: 35vw;
+    max-width: 35vw;
+    height: auto;
+}
+
+.key{
+     /*study flex box*/
+     display: flex;
+    min-height: 40vh;
+    min-width: 60px;
+    border: 0.5px solid #fff; /*CSS2*/
+    border-radius:0px 0px 5px 5px; /*CSS6*/
+    background: radial-gradient(#fff, tan) /*CSS1*/ 
+}
+
+div .key:active{
+border-left: 1px solid tan; /*CSS8*/
+border-right: 1px solid tan;/*CSS9*/
+border-bottom: 1px solid tan;/*CSS10*/
+box-shadow: 1px 1px #fff;/*CSS11*/
+}
